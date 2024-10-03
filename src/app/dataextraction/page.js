@@ -1,5 +1,5 @@
 "use client";
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function DataExtractionPage() {
   // State for storing the extracted data values
@@ -18,7 +18,9 @@ export default function DataExtractionPage() {
       <main className="w-full max-w-5xl bg-white p-8 rounded-lg shadow-lg">
         {/* Breadcrumb */}
         <div className="mb-6 text-black">
-          <h1 className="text-xl font-semibold">Invoices &gt; Data Extraction</h1>
+          <h1 className="text-xl font-semibold">
+            Invoices &gt; Data Extraction
+          </h1>
         </div>
 
         {/* Top Navigation Steps */}
@@ -40,7 +42,9 @@ export default function DataExtractionPage() {
               <div className="w-8 h-8 flex items-center justify-center rounded-full bg-purple-600 text-white">
                 2
               </div>
-              <span className="ml-2 font-bold">Choose data extraction rules</span>
+              <span className="ml-2 font-bold">
+                Choose data extraction rules
+              </span>
             </div>
 
             {/* Step Line */}
@@ -65,18 +69,28 @@ export default function DataExtractionPage() {
         <div className="bg-white p-6 rounded-lg shadow-lg flex space-x-8">
           {/* Uploaded Document */}
           <div className="flex-1">
-            <h2 className="text-lg font-bold mb-4 text-black">Uploaded Document</h2>
+            <h2 className="text-lg font-bold mb-4 text-black">
+              Uploaded Document
+            </h2>
             <div className="border rounded-lg p-4">
-              <img src="/invoice-sample.png" alt="Uploaded Invoice" className="w-full" />
+              <img
+                src="/invoice-sample.png"
+                alt="Uploaded Invoice"
+                className="w-full"
+              />
             </div>
           </div>
 
           {/* Extracted Data */}
           <div className="flex-1">
-            <h2 className="text-lg font-bold mb-4 text-black">Extracted Data</h2>
+            <h2 className="text-lg font-bold mb-4 text-black">
+              Extracted Data
+            </h2>
             <div className="space-y-4">
               <div>
-                <label className="block font-semibold text-black">Billed To</label>
+                <label className="block font-semibold text-black">
+                  Billed To
+                </label>
                 <input
                   type="text"
                   value={billedTo}
@@ -85,7 +99,9 @@ export default function DataExtractionPage() {
                 />
               </div>
               <div>
-                <label className="block font-semibold text-black">Invoice No.</label>
+                <label className="block font-semibold text-black">
+                  Invoice No.
+                </label>
                 <input
                   type="text"
                   value={invoiceNo}
@@ -94,7 +110,9 @@ export default function DataExtractionPage() {
                 />
               </div>
               <div>
-                <label className="block font-semibold text-black">Invoice Date</label>
+                <label className="block font-semibold text-black">
+                  Invoice Date
+                </label>
                 <input
                   type="text"
                   value={invoiceDate}
@@ -103,7 +121,9 @@ export default function DataExtractionPage() {
                 />
               </div>
               <div>
-                <label className="block font-semibold text-black">Subtotal</label>
+                <label className="block font-semibold text-black">
+                  Subtotal
+                </label>
                 <input
                   type="text"
                   value={subtotal}
