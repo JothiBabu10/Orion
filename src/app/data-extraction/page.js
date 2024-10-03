@@ -2,7 +2,6 @@
 import { useState } from "react";
 
 export default function DataExtractionPage() {
-  // State for storing the extracted data values
   const [billedTo, setBilledTo] = useState("Imani Oliowe");
   const [invoiceNo, setInvoiceNo] = useState("12345");
   const [invoiceDate, setInvoiceDate] = useState("16 June 2025");
