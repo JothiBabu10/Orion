@@ -1,5 +1,5 @@
 "use client";
-import { useRef } from 'react';
+import { useRef } from "react";
 
 export default function Page() {
   const fileInputRef = useRef(null);
@@ -16,18 +16,19 @@ export default function Page() {
         {/* Top Navigation Steps */}
         <div className="bg-white p-4 rounded-lg shadow-md">
           <div className="flex items-center justify-between text-gray-700 mb-6">
-            <h2 className="text-lg font-bold">Invoices &gt; Upload or choose document</h2>
+            <h2 className="text-lg font-bold">
+              Invoices &gt; Upload or choose document
+            </h2>
           </div>
 
           <div className="flex items-center space-x-8 text-gray-600">
             {/* Step 1 */}
             <div className="flex items-center">
-  <div className="w-8 h-8 flex items-center justify-center rounded-full bg-purple-600 text-white">
-    1
-  </div>
-  <span className="ml-2 font-bold">Upload or choose document</span>
-</div>
-
+              <div className="w-8 h-8 flex items-center justify-center rounded-full bg-purple-600 text-white">
+                1
+              </div>
+              <span className="ml-2 font-bold">Upload or choose document</span>
+            </div>
 
             {/* Step Line */}
             <div className="h-px flex-grow bg-gray-300"></div>
@@ -55,7 +56,9 @@ export default function Page() {
 
         {/* Upload Section */}
         <div className="mt-10 bg-white p-8 rounded-lg shadow-lg">
-          <h3 className="text-lg font-bold mb-4 text-black">Invoice Data Extraction</h3>
+          <h3 className="text-lg font-bold mb-4 text-black">
+            Invoice Data Extraction
+          </h3>
 
           <div className="border-2 border-dashed border-gray-300 rounded-lg p-6 text-center">
             {/* Hidden File Input */}
@@ -83,8 +86,16 @@ export default function Page() {
 
             {/* Cloud storage icons */}
             <div className="flex justify-center space-x-6 mt-6">
-              <img src="/icons/google-drive-icon.svg" alt="Google Drive" className="w-8" />
-              <img src="/icons/dropbox-icon.svg" alt="Dropbox" className="w-8" />
+              <img
+                src="/icons/google-drive-icon.svg"
+                alt="Google Drive"
+                className="w-8"
+              />
+              <img
+                src="/icons/dropbox-icon.svg"
+                alt="Dropbox"
+                className="w-8"
+              />
             </div>
           </div>
 

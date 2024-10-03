@@ -11,27 +11,22 @@ const Sidebar = () => {
       </div>
 
       {/* Navigation */}
-      <nav className="flex flex-col space-y-6">
-        <a href="/" className="flex flex-col items-center hover:text-gray-300">
-          <i className="fas fa-home text-2xl"></i>
+      <nav className="flex flex-col space-y-4">
+        <a href="/" className="flex items-center space-x-2">
+          <i className="fas fa-question-circle"></i>
+          <span className="text-sm">Upload</span>
         </a>
-        <a
-          href="/about"
-          className="flex flex-col items-center hover:text-gray-300"
-        >
-          <i className="fas fa-calendar-alt text-2xl"></i>
+        <a href="/data-extraction" className="flex items-center space-x-2">
+          <i className="fas fa-tachometer-alt"></i>
+          <span className="text-sm">Data Extraction</span>
         </a>
-        <a
-          href="/projects"
-          className="flex flex-col items-center hover:text-gray-300"
-        >
-          <i className="fas fa-file-alt text-2xl"></i>
+        <a href="/profile" className="flex items-center space-x-2">
+          <i className="fas fa-user"></i>
+          <span className="text-sm">Profile</span>
         </a>
-        <a
-          href="/profile"
-          className="flex flex-col items-center hover:text-gray-300"
-        >
-          <i className="fas fa-user text-2xl"></i>
+        <a href="/history" className="flex items-center space-x-2">
+          <i className="fas fa-cog"></i>
+          <span className="text-sm">History</span>
         </a>
       </nav>
     </aside>
