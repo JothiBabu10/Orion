@@ -38,7 +38,9 @@ export default function ProfilePage() {
 
             {/* Gmail ID */}
             <div>
-              <label className="block text-black font-bold mb-2">GMAIL ID</label>
+              <label className="block text-black font-bold mb-2">
+                GMAIL ID
+              </label>
               <input
                 type="email"
                 className="w-full p-3 rounded-lg border border-gray-300 text-black"
@@ -50,7 +52,9 @@ export default function ProfilePage() {
 
             {/* Password */}
             <div>
-              <label className="block text-black font-bold mb-2">PASSWORD</label>
+              <label className="block text-black font-bold mb-2">
+                PASSWORD
+              </label>
               <input
                 type="password"
                 className="w-full p-3 rounded-lg border border-gray-300 text-black"
